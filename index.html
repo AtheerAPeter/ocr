@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/tesseract.js@v2.1.0/dist/tesseract.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>OCR</title>
+  </head>
+  <body>
+    <div class="container" id="container">
+        <input type=file name=filename id=file>
+        <button type=button onclick='test()'>Convert</button></br>     
+    </div>
+    <div class="progress" id="progress">
+        <h4 id="pnumber"></h4>
+    </div>
+    <div class="text" id="text"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
